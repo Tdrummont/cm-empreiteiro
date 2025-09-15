@@ -2,28 +2,28 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground py-12">
+    <footer className="text-white py-12" style={{ backgroundColor: '#32393b' }}>
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold mb-4">CM - Empreiteiro</h3>
-            <p className="text-primary-foreground/80 mb-4 leading-relaxed">
+            <p className="text-white/80 mb-4 leading-relaxed">
               Construindo sonhos e transformando projetos em realidade há mais de 10 anos. 
               Sua confiança é nossa maior obra.
             </p>
             <div className="space-y-2">
               <div className="flex items-center">
                 <Phone className="w-4 h-4 mr-2" />
-                <span className="text-sm">(11) 9 9999-9999</span>
+                <span className="text-sm">(91) 99324-2545</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
-                <span className="text-sm">contato@cmempreiteiro.com.br</span>
+                <span className="text-sm">cmemp.official@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-4 h-4 mr-2" />
-                <span className="text-sm">São Paulo, SP</span>
+                <span className="text-sm">Belém, PA</span>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Services */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Nossos Serviços</h4>
-            <ul className="space-y-2 text-primary-foreground/80">
+            <ul className="space-y-2 text-white/80">
               <li>Construção Residencial</li>
               <li>Construção Comercial</li>
               <li>Reformas e Renovações</li>
@@ -43,7 +43,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
-            <ul className="space-y-2 text-primary-foreground/80">
+            <ul className="space-y-2 text-white/80">
               <li>
                 <a href="#inicio" className="hover:text-accent transition-colors">
                   Início
@@ -73,8 +73,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 pt-8 text-center">
-          <p className="text-primary-foreground/60">
+        <div className="border-t border-white/20 pt-8 text-center">
+          <p className="text-white/60">
             © 2024 CM - Empreiteiro. Todos os direitos reservados.
           </p>
         </div>

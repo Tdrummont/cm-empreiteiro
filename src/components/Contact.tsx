@@ -9,19 +9,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Telefone",
-      info: "(11) 9 9999-9999",
+      info: "(91) 99324-2545",
       subtitle: "Ligue para nós"
     },
     {
       icon: Mail,
       title: "E-mail",
-      info: "contato@cmempreiteiro.com.br",
+      info: "cmemp.official@gmail.com",
       subtitle: "Envie sua mensagem"
     },
     {
       icon: MapPin,
       title: "Endereço",
-      info: "São Paulo, SP",
+      info: "Belém, PA",
       subtitle: "Nossa localização"
     },
     {

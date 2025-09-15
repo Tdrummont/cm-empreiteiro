@@ -18,9 +18,12 @@ const About = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Fundada com o compromisso de entregar projetos de construção civil 
-              de alta qualidade, a CM - Empreiteiro se consolidou como referência 
-              no mercado através da excelência técnica e atendimento personalizado.
+            A CM Empreiteiros é uma empresa especializada em soluções completas para construção civil, unindo qualidade técnica, compromisso com prazos e transparência em cada etapa da obra. Atuamos em Belém e região, 
+              oferecendo serviços que vão desde a fundação até o acabamento,
+              sempre com foco em entregar obras sólidas, seguras e alinhadas às necessidades de cada cliente.
+              Nosso diferencial está na dedicação de uma equipe qualificada, 
+              que trabalha com materiais de primeira linha e técnicas modernas para garantir resultados duradouros. Mais do que levantar paredes, acreditamos que cada projeto é um passo importante na vida de nossos clientes,
+              e por isso tratamos cada obra com seriedade e atenção aos detalhes.
             </p>
 
             <div className="space-y-4 mb-8">
