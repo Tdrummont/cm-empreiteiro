@@ -1,73 +1,106 @@
-# Welcome to your Lovable project
+# CM - Empreiteiro
 
-## Project info
+Site institucional da CM - Empreiteiro, empresa especializada em construção civil, reformas e projetos personalizados em Belém, PA.
 
-**URL**: https://lovable.dev/projects/abd0907f-eff5-4214-8e4f-fe4b4c981a33
+## 🏗️ Sobre a Empresa
 
-## How can I edit this code?
+A CM - Empreiteiro é uma empresa com mais de 10 anos de experiência no mercado de construção civil, oferecendo serviços de:
 
-There are several ways of editing your application.
+- Construção Residencial
+- Construção Comercial  
+- Reformas e Renovações
+- Manutenção Predial
+- Projetos Personalizados
 
-**Use Lovable**
+## 📱 Contato
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/abd0907f-eff5-4214-8e4f-fe4b4c981a33) and start prompting.
+- **WhatsApp**: (91) 99324-2545
+- **Email**: cmemp.official@gmail.com
+- **Localização**: Belém, PA
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Tecnologias Utilizadas
 
-**Use your preferred IDE**
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Vite** - Build tool e dev server
+- **React** - Biblioteca para interface de usuário
+- **TypeScript** - Superset do JavaScript com tipagem estática
+- **Tailwind CSS** - Framework CSS utilitário
+- **shadcn/ui** - Componentes de interface reutilizáveis
+- **Lucide React** - Ícones modernos
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Como executar o projeto
 
-Follow these steps:
+### Pré-requisitos
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js (versão 16 ou superior)
+- npm ou yarn
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Instalação
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Clone o repositório
+git clone <URL_DO_REPOSITORIO>
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Navegue para o diretório do projeto
+cd cm-obra-facil
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+O projeto estará disponível em `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Scripts disponíveis
 
-**Use GitHub Codespaces**
+```bash
+# Desenvolvimento
+npm run dev
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Build para produção
+npm run build
 
-## What technologies are used for this project?
+# Preview do build
+npm run preview
 
-This project is built with:
+# Linting
+npm run lint
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📁 Estrutura do Projeto
 
-## How can I deploy this project?
+```
+src/
+├── components/          # Componentes React
+│   ├── ui/             # Componentes de interface (shadcn/ui)
+│   ├── Header.tsx      # Cabeçalho com navegação
+│   ├── Hero.tsx        # Seção principal
+│   ├── About.tsx       # Seção sobre a empresa
+│   ├── Services.tsx    # Seção de serviços
+│   ├── Projects.tsx    # Seção de projetos
+│   ├── Contact.tsx     # Seção de contato
+│   └── Footer.tsx      # Rodapé
+├── pages/              # Páginas da aplicação
+├── hooks/              # Hooks customizados
+├── lib/                # Utilitários
+└── assets/             # Imagens e recursos
+```
 
-Simply open [Lovable](https://lovable.dev/projects/abd0907f-eff5-4214-8e4f-fe4b4c981a33) and click on Share -> Publish.
+## 🎨 Personalização
 
-## Can I connect a custom domain to my Lovable project?
+O projeto utiliza Tailwind CSS para estilização. As cores principais podem ser ajustadas no arquivo `tailwind.config.ts`.
 
-Yes, you can!
+### Cores principais:
+- **Footer**: #32393b
+- **Primary**: Definida no tema do shadcn/ui
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 Licença
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2024 CM - Empreiteiro. Todos os direitos reservados.
+
+## 🤝 Contribuição
+
+Este é um projeto privado da CM - Empreiteiro. Para sugestões ou melhorias, entre em contato através dos canais oficiais da empresa.
