@@ -9,7 +9,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Telefone",
-      info: "(91) 99324-2545",
+      info: "(91) 99324-2545 ou (91) 98481-8573",
       subtitle: "Ligue para nós"
     },
     {

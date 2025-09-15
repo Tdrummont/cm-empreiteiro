@@ -33,7 +33,7 @@ const Header = () => {
         <Button 
           variant="default" 
           className="hidden md:inline-flex"
-          onClick={() => window.open('https://wa.me/5591993242545?text=Olá! Gostaria de solicitar um orçamento.', '_blank')}
+          onClick={() => window.open('https://wa.me/55919984818573?text=Olá! Gostaria de solicitar um orçamento.', '_blank')}
         >
           Solicitar Orçamento
         </Button>

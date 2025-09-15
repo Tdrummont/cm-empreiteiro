@@ -26,7 +26,7 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-6 text-lg font-semibold"
-            onClick={() => window.open('https://wa.me/5591993242545?text=Olá! Gostaria de solicitar um orçamento.', '_blank')}
+            onClick={() => window.open('https://wa.me/5591984818573?text=Olá! Gostaria de solicitar um orçamento.', '_blank')}
           >
             Solicitar Orçamento
           </Button>
