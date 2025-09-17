@@ -58,7 +58,7 @@ const Header = () => {
             </SheetTrigger>
             <SheetContent side="right" className="w-[280px] sm:w-[350px]">
               <SheetHeader>
-                <SheetTitle>Menu de Navegação</SheetTitle>
+                <SheetTitle>Menu</SheetTitle>
               </SheetHeader>
               <div className="flex flex-col space-y-4 mt-6">
                 {menuItems.map((item) => (

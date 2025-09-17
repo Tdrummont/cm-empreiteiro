@@ -18,7 +18,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-          Há mais de 10 anos realizando projetos de construção civil com excelência, 
+          Há mais de 8 anos realizando projetos de construção civil com excelência, 
           segurança e pontualidade. Sua obra em mãos experientes.
         </p>
         

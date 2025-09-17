@@ -4,7 +4,7 @@ import { CheckCircle, Users, Calendar, Award } from "lucide-react";
 const About = () => {
   const stats = [
     { icon: Calendar, number: "10+", label: "Anos de Experiência" },
-    { icon: Users, number: "200+", label: "Projetos Concluídos" },
+    { icon: Users, number: "50+", label: "Projetos Concluídos" },
     { icon: Award, number: "98%", label: "Satisfação dos Clientes" },
   ];
 
